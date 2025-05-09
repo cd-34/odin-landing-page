@@ -1,6 +1,46 @@
+/* Roboto font import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-ul {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
+    height: 40px;
+}
+
+/* 
+I would assume header.div would work but it doesn't, and I'm not sure why
+Ended up making .logo to style it
+Need to search up why this doesn't work 
+
+header.div {
+    color: yellow;
+} 
+*/
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.header-links {
     list-style: none;
     padding: 0;
     margin: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
 }
